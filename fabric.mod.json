@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "visualsclient",
+  "version": "${version}",
+  "name": "Visuals Client",
+  "description": "Armor HUD, durability, inventory display, light optimizations and a smooth animated config menu.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.visualsclient.VisualsClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
